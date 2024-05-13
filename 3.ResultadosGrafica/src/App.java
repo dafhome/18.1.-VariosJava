@@ -24,6 +24,14 @@ public class App {
         // for (Partido partido : elecciones) {
         //     System.out.println(partido);
         // }
+        System.out.println();
+        System.out.println("Vamos a proceder al recuento.");
+        System.out.println("\nAprieta ENTER para continuar");
+        scan.nextLine();
+        // Limpiamos pantalla
+        System.out.print("\033[H\033[2J"); 
+        System.out.flush();
+
 
         System.out.println();
         System.out.println("                     Elecciones Cataluña 2024                      ");
