@@ -1,13 +1,4 @@
-# 18.1.-VariosJava
- 
-Instructions
-1- PRINTAR CARACTERES LETRAS MINUSCULAS
-Mediante un bucle de que recorre tipos char, imprime todas las letras minúsculas de la 'a' a la 'z'.
-+EXTRA: imprimir las mayúsculas y las minúsculas sin los signos entre medio.
-2- PRINTAR CARACTER SEGUN NUMERO
-Pides al usuario que escriba un número entre el 33 y el 126, y le muestras el carácter que le corresponde. Ejemplo:
-Numero de usuario: 65.  Muestras la A mayúscula.
-
+# 18.1.3. Barras Resultados
 
 3- BARRAS RESULTADOS ELECTORALES
 Son las elecciones! Se van a mostrar gráficamente los resultados de cada partido.
