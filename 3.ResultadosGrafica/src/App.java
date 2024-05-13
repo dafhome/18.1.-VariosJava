@@ -21,9 +21,6 @@ public class App {
         }
         Metodos.calculoPorcentaje(elecciones);
 
-        // for (Partido partido : elecciones) {
-        //     System.out.println(partido);
-        // }
         System.out.println();
         System.out.println("Vamos a proceder al recuento.");
         System.out.println("\nAprieta ENTER para continuar");
