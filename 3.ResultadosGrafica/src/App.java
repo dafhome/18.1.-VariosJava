@@ -26,14 +26,14 @@ public class App {
         // }
 
         System.out.println();
-        System.out.println("         Elecciones Cataluña 2024         ");
-        System.out.println("-----------------------------------------");
+        System.out.println("                     Elecciones Cataluña 2024                      ");
+        System.out.println("-------------------------------------------------------------------");
         System.out.println();
         for (Partido partido : elecciones) {
             int p = partido.getPorcentaje();
-            System.out.print(String.format("%1$-10s",(partido.getNombre()))+": ");
+            Metodos.printLentamente(String.format("%1$-10s",(partido.getNombre()))+": ", 0, 1);
             for (int i=0;i<p;i++){
-                Metodos.printLentamente(">", 0, 1);
+                Metodos.printLentamente("%", 0, 1);
             }
             System.out.println();
         }
