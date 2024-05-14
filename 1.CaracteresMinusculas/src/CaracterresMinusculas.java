@@ -1,4 +1,4 @@
-public class App {
+public class CaracterresMinusculas {
     public static void main(String[] args) throws Exception {
         for (char x = 'A'; x<='z'; x++){
             if(x <= 'Z'|| x>='a'){
@@ -8,3 +8,4 @@ public class App {
         System.out.println();
     }
 }
+
